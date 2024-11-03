@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 1550px;
+    width: 100%;
+   
+}
+#title{
+    letter-spacing: 4px;
+
+}
+#bar{
+    box-shadow: transparent ;
+    box-shadow:
+    13.1px 8.9px 7.3px rgba(0, 0, 0, 0.08),
+    115px 78px 83px rgba(0, 0, 0, 0.047);
+    color: white;
+}
+#art_store{
+    position: relative;
+    width: 100%;
+    margin: 7px;
+    transition: 0.1s linear;
+    text-align: center;
+}
+#art_magazine{
+    position: relative;
+    width: 100%;
+    margin: 7px;
+    
+    transition: 0.1s linear;
+    text-align: center;
+    background-color: rgb(219, 30, 30);
+    border-radius: 9px;
+}
+#about{
+    position: relative;
+    width: 100%;
+    margin: 7px;
+    transition: 0.1s linear;
+    text-align: center;
+}
+#art_magazine:hover{
+background-color: #ddd4d4d7;
+cursor: pointer;
+border-radius: 9px;
+text-align: center;
+}
+#about:hover{
+background-color: rgb(219, 30, 30);
+cursor: pointer;
+border-radius: 9px;
+text-align: center;
+}
+#art_store:hover{
+background-color: rgb(219, 30, 30);
+cursor: pointer;
+border-radius: 9px;
+text-align: center;
+}
+#card{
+    position: absolute;
+}
+#box{
+    box-shadow:
+    5.6px 6.1px 3.7px rgba(0, 0, 0, 0.058),
+    16.4px 17.9px 10.3px rgba(0, 0, 0, 0.087),
+    38.9px 42.5px 24.7px rgba(0, 0, 0, 0.112),
+    110px 120px 82px rgba(0, 0, 0, 0.15);
+}
+#card-title{
+text-transform: capitalize;
+}
+.sample{
+    display: inline-block;
+}
+#bod{
+    letter-spacing: 25px;
+    font-size:30px;
+    cursor: pointer;
+}
