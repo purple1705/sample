@@ -33,10 +33,9 @@ body{
     position: relative;
     width: 100%;
     margin: 7px;
-    
     transition: 0.1s linear;
     text-align: center;
-    background-color: rgb(219, 30, 30);
+   background-color: rgb(219, 30, 30);
     border-radius: 9px;
 }
 #about{
@@ -53,13 +52,13 @@ border-radius: 9px;
 text-align: center;
 }
 #about:hover{
-background-color: rgb(219, 30, 30);
+background-color: #ddd4d4d7;
 cursor: pointer;
 border-radius: 9px;
 text-align: center;
 }
 #art_store:hover{
-background-color: rgb(219, 30, 30);
+background-color: #ddd4d4d7;
 cursor: pointer;
 border-radius: 9px;
 text-align: center;
