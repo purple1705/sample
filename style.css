@@ -84,3 +84,66 @@ text-transform: capitalize;
     font-size:30px;
     cursor: pointer;
 }
+#logo{
+overflow-x: hidden;
+padding:60px 0;
+background-color: #ffffff;
+white-space: nowrap;
+position: relative;
+}
+#logo-slider{
+display: inline-block;
+animation: 10s slide infinite linear;
+}
+#logo-slider img{
+height: 320px;
+margin: 0 40px;
+width: 320px;
+
+}
+#logo:hover #logo-slider{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+#logo::after,
+#logo::before{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 9;
+    content: "";
+}
+#logo::before{
+    left: 0;
+    border-radius: 59px 0px 0px 60px;
+-webkit-border-radius: 59px 0px 0px 60px;
+-moz-border-radius: 59px 0px 0px 60px;
+    background: linear-gradient(to left,rgb(250, 247, 247),rgb(155, 155, 159));  
+}
+#logo::after{
+    right: 0;
+    borborder-radius: 0px 59px 58px 0px;
+    -webkit-border-radius: 0px 59px 58px 0px;
+    -moz-border-radius: 0px 59px 58px 0px;
+    background: linear-gradient(to left,rgb(155, 155, 159),rgb(252, 248, 248)); 
+   
+}
+#countdown{
+    color: rgb(163, 161, 161);       
+}
+#time{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+font-family: serif;
+}
